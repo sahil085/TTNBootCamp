@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="iskcongzb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="iskcongzb.war">
+      <element id="artifact" artifact-name="iskcongzb:war exploded" />
+    </root>
+  </artifact>
+</component>
