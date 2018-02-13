@@ -1,0 +1,187 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\froman\fcharset0 Times New Roman;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.14393}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9         \par
+
+\pard\sa200\sl276\slmult1\qc              \b\fs32 HTML ASSIGNMENT\b0\fs22\par
+
+\pard\sb100\sa100\b Qtn 1 : \b0\f1\fs24\lang1033 How are inline and block elements different from each other?\f0\fs22\lang9\par
+
+\pard\sa200\sl276\slmult1\b ANS 1 :\i\par
+Block-level Elements :\b0\i0\par
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).\par
+Examples of block-level elements.\par
+1 : <div>\par
+2 : <h1> - <h6>\par
+3 : <p>\par
+4 : <form>\par
+\b\i Inline Elements :\b0\i0\par
+An inline element does not start on a new line and only takes up as much width as necessary.\par
+This is an inline <span> element inside a paragraph.\par
+Examples of inline elements:\par
+1 : <span>\par
+2 : <a>\par
+3 : <img>\par
+\par
+\par
+\b Qtn 2 : Explain the difference between visibility:hidden and display:none ?\par
+ANS 1 : visibility:hidden : \b0 the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn't seen on the page.\b\par
+  display:none  : \b0 means that the tag  will not appear on the page at all. There will be no space allocated for it between the other tags.\par
+\par
+\par
+\b Qtn 3 : Explain the clear and float properties.\par
+ANS 3 : Float : \b0 The float property specifies whether or not an element should float.\par
+\b Float example :\par
+<!DOCTYPE html>\par
+<html>\par
+<head>\par
+<style>\par
+img \{\par
+    float: right;\par
+    margin: 0 0 10px 10px;\par
+\}\par
+</style>\par
+</head>\par
+<body>\par
+\par
+<p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.</p>\par
+\par
+<p><img src="w3css.gif" alt="W3Schools.com" width="100" height="140">\par
+hi i am paragraph . image is floating right in respect with me.</p>\par
+\par
+</body>\par
+</html>\b0\par
+\b 2 : Clear : \b0 The clear property is used to control the behavior of floating elements.\par
+\b Clear example :\par
+<!DOCTYPE html>\par
+<html>\par
+<head>\par
+<style>\par
+.div1 \{\par
+    float: left;\par
+    width: 100px;\par
+    height: 50px;\par
+    margin: 10px;\par
+    border: 3px solid #73AD21;\par
+\}\par
+\par
+.div2 \{\par
+    border: 1px solid red;\par
+\}\par
+\par
+\par
+.div3 \{\par
+    float: left;\par
+    width: 100px;\par
+    height: 50px;\par
+    margin: 10px;\par
+    border: 3px solid #73AD21;\par
+\}\par
+\par
+.div4 \{\par
+    border: 1px solid red;\par
+    clear: left;\par
+\}\par
+</style>\par
+</head>\par
+<body>\par
+\par
+<h2>Without clear</h2>\par
+<div class="div1">div1</div>\par
+<div class="div2">div2 - Notice that the div2 element is after div1, in the HTML code. However, since div1 is floated to the left, this happens: the text in div2 is floated around div1, and div2 surrounds the whole thing.</div>\par
+\par
+<h2>Using clear</h2>\par
+<div class="div3">div3</div>\par
+<div class="div4">div4 - Using clear moves div4 down below the floated div3. The value "left" clears elements floated to the left. You can also clear "right" and "both".</div>\par
+\par
+</body>\par
+</html>\par
+\par
+\par
+\par
+Qtn 4 : explain difference between absolute, relative,fixed and static.\par
+1 : \ul static\ulnone  :  Default value. Elements render in order, as they appear in the document flow.\par
+2 : \ul absolute\ulnone  : The element is positioned relative to its first positioned (not static) ancestor element.\par
+3 : \ul fixed\ulnone  : The element is positioned relative to the browser window.\par
+4 : \ul relative\ulnone  : The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position.\par
+\par
+\par
+Qtn 5 :  Write the HTML code to create a table in which there are 4 columns ( ID , Employee Name, Designation, Department) and at least 6 rows. Also do some styling to it.\par
+Ans 5 : click on link to view table -->  {{\field{\*\fldinst{HYPERLINK https://github.com/sahil085/virtual-classroom }}{\fldrslt{https://github.com/sahil085/virtual-classroom\ul0\cf0}}}}\f0\fs22\par
+\par
+\par
+\par
+Qtn 6 : Why do we use meta tags?\par
+Ans 6 \b0 : Metadata is data (information) about data.\par
+The <meta> tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable.\par
+Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.\par
+The metadata can be used by browsers (how to display content or reload page), search engines (keywords), or other web services.\par
+\par
+\par
+\par
+\par
+\b Qtn 7 :  Explain box model.  \par
+Ans 7 :  \b0 All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.\par
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:\par
+\ul\b Content \ulnone - \b0 The content of the box, where text and images appear.\par
+\ul\b Padding\ulnone\b0  - Clears an area around the content. The padding is transparent.\par
+\ul\b Border \ulnone\b0 - A border that goes around the padding and content.\par
+\ul\b Margin\ulnone\b0  - Clears an area outside the border. The margin is transparent.\par
+\par
+\par
+\par
+\par
+\b Qtn 8 : What are the different types of CSS Selectors? \par
+Ans 8 :\par
+1 : \b0  .class\tab               .intro\tab                     Selects all elements with class="intro"\tab\par
+\b 2 :  \b0 #id                   \tab #firstname\tab      Selects the element with id="firstname"\par
+\b 3 :  \b0 element\tab                 p\tab                     Selects all <p> elements\tab 1\par
+\b 4 :  \b0 element,element\tab div, p\tab                     Selects all <div> elements and all <p> elements\tab\par
+\b 5 :  \b0 element element\tab div p\tab                     Selects all <p> elements inside <div> elements\par
+AND MANY MORE ....!!\par
+\par
+\par
+\par
+\b Qtn 9 :\b0  \b Define Doctype.\b0\par
+\b Ans 9 : \b0 The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag.\par
+\par
+The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.\par
+\par
+In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was based on SGML. The DTD specifies the rules for the markup language, so that the browsers render the content correctly.\par
+\par
+\par
+\par
+\b Qtn 10 :  Explain 5 HTML5 semantic tags.\par
+Ans 10 :\par
+\b0 A semantic element clearly describes its meaning to both the browser and the developer.\par
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.\par
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.\par
+\ul\b HTML5 offers new semantic elements to define different parts of a web page:  \ulnone\b0\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b <article>\par
+{\pntext\f2\'B7\tab}<aside>\par
+{\pntext\f2\'B7\tab}<details>\par
+{\pntext\f2\'B7\tab}<figcaption>\par
+{\pntext\f2\'B7\tab}<figure>\par
+{\pntext\f2\'B7\tab}<footer>\par
+{\pntext\f2\'B7\tab}<header>\par
+{\pntext\f2\'B7\tab}<main>\par
+{\pntext\f2\'B7\tab}<mark>\par
+{\pntext\f2\'B7\tab}<nav>\par
+{\pntext\f2\'B7\tab}<section>\par
+{\pntext\f2\'B7\tab}<summary>\par
+{\pntext\f2\'B7\tab}<time>\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+\par
+
+\pard\sa200\sl276\slmult1 Qtn 11 :  Create HTML for web-page.jpg.\par
+ Link to git -- > {{\field{\*\fldinst{HYPERLINK https://github.com/sahil085/virtual-classroom }}{\fldrslt{https://github.com/sahil085/virtual-classroom\ul0\cf0}}}}\f0\fs22\par
+Qtn 12 : Create HTML for form.png\par
+Link to git -- > {{\field{\*\fldinst{HYPERLINK https://github.com/sahil085/virtual-classroom }}{\fldrslt{https://github.com/sahil085/virtual-classroom\ul0\cf0}}}}\f0\fs22\par
+
+\pard\sa200\sl276\slmult1\b0\par
+\par
+}
+ 

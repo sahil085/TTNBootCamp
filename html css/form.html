@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bug report</title>
+	<link rel="stylesheet" type="text/css" href="formstyle.css">
+<body>
+<div id="head">
+	<span id="ttn">TO THE NEW</span>
+	<span id="link1">
+	<a href="home.html">HOME</a>
+	</span>
+	<span id="link2">
+    <a href="quicksetup.html">Quick setup</a>
+	</span>
+	
+	</div>
+<hr>
+
+<div id="boundary">
+<div id="bug">Bug Report</div>
+<form action="##" method="post">
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title:*
+<br>
+<input type="text" name="title" required="this field is required" id="title">
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Description:*
+<br>
+<textarea required="this field is required" id="description"></textarea>
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Operating System:
+<br>
+<select class="dropdownlist">
+	<option value="window">window</option>
+	<option value="ubuntu">ubuntu</option>
+</select>
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product:*
+<select class="dropdownlist">
+	<option value="formoid">Formoid</option>
+	
+</select>
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version:*
+<br>
+<input type="text" name="version" id="version">
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;License:
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="license" value="free">free
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="license" value="buisness">buisness
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Severity:
+<br>
+<select class="dropdownlist">
+	<option value="critical">critical</option>
+</select>
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attachments:
+<br>
+<input type="file" name="attachment" id="fileid">
+<br>
+
+<div id="foot">
+<hr>
+<input type="submit" name="send" value="send" id="buttn">
+</div>
+</form>
+</div>
+</body>
+</html>

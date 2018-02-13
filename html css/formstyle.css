@@ -1,0 +1,154 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    
+}
+#head
+{
+
+position: relative;
+ height: 80px;
+ margin-left: 100px;
+ margin-right: 100px;
+ font-weight: bold;
+}
+#ttn
+{
+	color: aqua;
+	font-size: 30px;
+	margin-left: 2px;
+	margin-top: 20px;
+	position: absolute;
+   
+}
+
+#link1 a
+{
+	color: aqua;
+	text-decoration: none;
+	padding-left: 1250px;
+	font-size: 20px;
+	margin-top: 25px;
+	position: absolute;
+}
+#link2 a
+{
+	color: aqua;
+	text-decoration: none;
+	float: left;
+	padding-left: 1320px;
+	font-size: 20px;
+	position: absolute;
+    margin-left: 30px;
+    margin-top: 24px;
+}
+hr
+{
+	 
+ margin-left: 100px;
+ margin-right: 100px;
+  
+}
+#boundary
+{
+	position: absolute;
+    height: 680px;
+    width: 500px;
+    margin: -80px 0 0 -200px;
+   top: 25%;
+    left: 46%;
+   border:1px solid black;
+   border-radius: 5px;
+   color: grey;
+}
+
+#bug
+{
+	background-color:#d3d3d3;
+	color: white;
+	font-size: 30px;
+	padding-top: 10PX;
+	padding-left: 30px;
+	height: 50px;
+	font-style: verdana;
+	font-weight: bold;
+}
+#title
+{
+	border: 2px solid grey;
+	border-radius: 5px;
+	 margin-left: 20px;
+	 height: 20px;
+	 width: 450px;
+	 
+}
+#description
+{
+	border: 2px solid grey;
+	border-radius: 5px;
+	 margin-left: 20px;
+	 height: 60px;
+	 width: 450px;
+
+}
+.dropdownlist
+{
+	border: 2px;
+	border-radius: 5px;
+	 margin-left: 20px;
+	 height: 25px;
+	 width: 450px;
+	 background-color: #20b2aa;
+	 border-color: #20b2aa;
+	 color: white;
+	 font-weight: bold;
+}
+.dropdownlist:hover
+{
+	background-color: black;
+}
+#version
+{
+	border: 2px solid grey;
+	border-radius: 5px;
+	 margin-left: 20px;
+	height: 30px;
+	width: 90px;
+
+}
+#fileid
+{
+	border: 2px solid grey;
+	border-radius: 5px;
+	 margin-left: 20px;
+	 height: 20px;
+	 width: 450px;
+
+}
+#foot
+{
+	background-color: whitesmoke;
+	width: 500px;
+	height: 67px;
+	
+	position: absolute;
+	margin-top: 9px;
+}
+#foot hr
+{
+	width: 500px;
+	color: black;
+	margin-left: -1px;
+}
+#buttn
+{
+	background-color: #20b2aa;
+	width: 70px;
+	height: 40px;
+	margin-left: 400px;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	border-radius: 8px;
+}
